@@ -1,0 +1,83 @@
+POST http://localhost:8080/registration
+Content-Type: application/x-www-form-urlencoded
+
+name=lera&username=lera_username&password=12fS0gd_3
+
+###
+
+POST http://localhost:8080/authorization
+Content-Type: application/x-www-form-urlencoded
+
+username=lera_username&password=12fS0gd_3
+
+###
+
+POST http://localhost:8080/calc
+Content-Type: application/x-www-form-urlencoded
+
+num1=1&num2=3&operation=sum
+
+###
+
+GET http://localhost:8080/history
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://localhost:8080/logout
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+
+POST http://localhost:8080/registration
+Content-Type: application/x-www-form-urlencoded
+
+name=tom&username=tom_smith&password=12345678
+
+###
+
+POST http://localhost:8080/authorization
+Content-Type: application/x-www-form-urlencoded
+
+username=tom_smith&password=12345678
+
+###
+
+POST http://localhost:8080/calc
+Content-Type: application/x-www-form-urlencoded
+
+num1=10&num2=5&operation=mul
+
+###
+
+GET http://localhost:8080/history
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+
+
+
+
+POST http://localhost:8080/remove_account
+Content-Type: application/x-www-form-urlencoded
+
+username=lera_username&password=12fS0gd_30
+
+###
+
+
+POST http://localhost:8080/change_username
+Content-Type: application/x-www-form-urlencoded
+
+username=lera_username&password=12fS0gd_3&newUsername=new_lera_us
+
+###
+
+POST http://localhost:8080/change_pass
+Content-Type: application/x-www-form-urlencoded
+
+username=lera_username&password=12fS0gd_3&newPassword=123456789
+
+###
